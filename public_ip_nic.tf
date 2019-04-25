@@ -4,7 +4,7 @@ resource "azurerm_public_ip" "jenkins_pip" {
   name 				= "Jenkins_Public_IP"
   location 			= "${var.location}"
   resource_group_name 		= "${azurerm_resource_group.terraform_rg.name}"
-  public_ip_address_allocation 	= "static"
+  allocation_method 	= "Static"
 }
 
 resource "azurerm_network_interface" "public_nic" {

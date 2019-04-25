@@ -52,12 +52,12 @@ resource "azurerm_virtual_machine_extension" "jenkins_terraform" {
 SETTINGS
 }
 
-terraform {
+/*terraform {
   backend "azurerm" {
-    storage_account_name = ""
-    container_name       = ""
+    resource_group_name  = "rgeu2staterraformstate"
+    storage_account_name = "staeu2terraform01"
+    container_name       = "terraformstatecontainer"
     key                  = "terraform.tfstate"
-    access_key           = ""
-
+    access_key           = "dXJFYXBtaUZCc0VWYkt3bTVsaUI5RUhzRWFCMzM2MUliVlZHTDJIY1VuZFdYL0pxSEsyeXNHUGpLQnkzKzNURHZJaHZGcy9JMTI5dDN5UFpaTkdwcnc9PQ=="
   }
-}
+}*/

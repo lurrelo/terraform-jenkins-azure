@@ -14,7 +14,7 @@ variable "tenant_id" {}
 
 # Variables
 
-variable "location" { default  = "Central India" }
+variable "location" { default  = "East US 2" }
 variable "resource_group_name" { default = "jenkins" }
 variable "vnet_cidr" { default = "192.168.0.0/16" }
 variable "subnet_cidr" { default = "192.168.1.0/24" }
